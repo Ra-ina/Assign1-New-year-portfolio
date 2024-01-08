@@ -1,0 +1,56 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.header {
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+
+.banner {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
+}
+.banner-content{
+    width: 632px;
+    height: 40px;
+    align-items: center;
+    padding: 170px 350px;
+}
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    align-items: center;
+     margin-top: 5px;
+    margin-bottom: 50px;
+}
+.sale{
+    font-family: 'Inter', sans-serif;
+    width: 1600px;
+height: 7335px;
+}
+.section-title{
+    color: #F00;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+}
