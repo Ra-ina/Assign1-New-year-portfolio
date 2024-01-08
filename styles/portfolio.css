@@ -6,6 +6,24 @@ body {
     border-radius: 16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 }
+.primary-color{
+    color: #F00;
+}
+.prim-color{
+    border-radius: 8px;
+background: #F00;
+display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 48px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+}
 
 .banner {
     background-image: url('../resources/Banner\ Image.png');
@@ -49,8 +67,10 @@ body {
 .sale {
     font-family: 'Inter', sans-serif;
     width: 1600px;
-    height: 7335px;
+    /* height: 7335px; */
+    margin-bottom: 50px;
 }
+
 .section-title {
     color: #F00;
     text-align: center;
@@ -58,24 +78,91 @@ body {
     font-weight: 700;
     margin-bottom: 48px;
 }
-.section-description1{
+
+.section-description1 {
     color: #F00;
-text-align: center;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
 }
-.section-description2{
+
+.section-description2 {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-top: 1px;}
-.section-data .ny-pic{
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.section-data .ny-pic {
     width: 802.9px;
-height: 500px;
-flex-shrink: 0;
-text-align: center;
-margin:0px 399px;
+    height: 500px;
+    text-align: center;
+    margin: 0px 399px;
+}
+
+.party {
+    width: 1320px;
+    /* height: 600px; */
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    padding:126px 552px 295px 126px;
+    margin-bottom: 0px;
+}
+.party-description1{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+width: 642px;
+margin-bottom: 0px;
+
+}
+.party-description2{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+width: 697px;
+margin-top: 0;
+/* /* padding:0px 497px 214px 126px; */
+} 
+.party-description3{
+    color: #FFF;
+text-align: left;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+}
+/* .party-data .nye-pic{
+  display:flex ;
+float: right;
+justify-content: space-between;
+} */
+.place{
+    width: 1320px;
+height: 482px;
+border-radius: 16px;
+background-color: gray;
+margin: 50px 140px;
+
+/* background-color:#FF0000, #FF000000; */
+}
+.place-data{
+    width: 549px;
+    height: 168px;
+    padding: 100px 385px; 
+}
+
+.place-description{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
 }
