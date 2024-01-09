@@ -110,9 +110,15 @@
     width: 1320px;
     height: 482px;
     border-radius: 16px;
-    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
     margin: 50px auto;
     text-align: center;
+}
+
+.place button {
+    padding: 16px 32px;
+    border: 0;
+    margin-top: 65px;
 }
 
 .place-description {
@@ -121,23 +127,72 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
-
+    padding-top: 100px;
 }
 
 span {
     color: #F00;
-    ;
 }
 
 button {
     border-radius: 8px;
     background: #F00;
 }
+.offer{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.offer-description1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.offer-description2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.offer-description3{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+width: 393px;
+line-height: 32px;
+}
+.offer-description4{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+.offer-description5{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
 
 .functional {
-    width: 1600px;
+    width: 1320px;
+    height: 875px;
     margin: 50px auto;
     text-align: center;
+    background-image: url('../resources/Group\ 44.png'),url('../resources/Group\ 75.png'),url('../resources/Rectangle\ 2.png'),url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 730px 300px,left bottom,center bottom,right center;
 }
 
 .functional-title1 {
@@ -165,8 +220,7 @@ button {
 
 
 .things {
-    width: 1600px;
-    /* height: 7335px; */
+    width: 1320px;
     margin: 50px auto;
     /* text-align: center; */
 }
@@ -194,19 +248,17 @@ button {
     font-weight: 400;
     line-height: 32px;
 }
-/* .column {
-    width: 424px;
-    height: 450px;
-    border-radius: 16px;
-    padding: 50px 140px;
-    margin-bottom: 150px;}
-/* .row {
+
+ .row {
     display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .row2 {
     display: flex;
-} */ 
+    gap: 10px;
+} 
 .newsletter {
     width: 1320px;
     height: 616px;
@@ -226,7 +278,7 @@ button {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 25px;
-    ;
+
 }
 
 .newsletter-description2 {
@@ -235,6 +287,43 @@ button {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 50px;
+    width: 896px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.newsletter-mail-input {
+    display: flex;
+    justify-content: center;
+
+}
+
+.newsletter-mail-input button {
+    padding: 25px 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+}
+
+.newsletter-input {
+    padding: 25px 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 300px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
 }
 
 .footer {
@@ -242,34 +331,51 @@ button {
     height: 609px;
     background: #070211;
     margin: 50px auto;
-    /* display: flex; */
 }
+
 .footer-data {
-    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 120px;
 }
-.footer-description1{
+
+.footer-data2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-description1 {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px;
+    /* line-height: 40px; */
     width: 375px;
     height: 80px;
+    margin-top: 70px;
 }
-.footer-description2{
+
+.footer-description2 {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 70px;
+
 }
+
 .footer-icons {
     display: flex;
-    text-align: center;
-    /* padding: 5px 150px; */
+    gap: 35px;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 5px 150px;
 }
+
 hr {
     width: 1320px;
     height: 1px;
+    margin: 0px auto;
 }
